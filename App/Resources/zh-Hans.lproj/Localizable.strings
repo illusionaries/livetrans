@@ -1,0 +1,89 @@
+/* Menu */
+"menu.header" = "LiveTrans · EN → 中文";
+"menu.show_hud" = "显示 HUD";
+"menu.hide_hud" = "隐藏 HUD";
+"menu.minimal" = "极简模式";
+"menu.settings" = "设置…";
+"menu.material" = "毛玻璃背景";
+"menu.start" = "开始聆听";
+"menu.stop" = "停止聆听";
+"menu.microphone" = "麦克风";
+"menu.aec" = "回声消除 (AEC)";
+"menu.click_through" = "点击穿透";
+"menu.hide_in_share" = "屏幕共享时隐藏 HUD";
+"menu.translation_languages" = "打开翻译语言设置…";
+"menu.quit" = "退出 LiveTrans";
+"status.tooltip" = "LiveTrans · EN → 中文";
+
+/* HUD */
+"hud.direction" = "EN → 中文";
+"hud.empty_title" = "等待声音…";
+"hud.empty_subtitle" = "播放一段英文视频，或开始说话";
+"hud.language_pack_banner" = "翻译语言包未安装 · 菜单栏 → 打开翻译语言设置";
+"hud.lane.system" = "对方";
+"hud.lane.mic" = "我";
+"hud.translating" = "翻译中…";
+"hud.recognizing" = "识别中…";
+"hud.footer_shortcuts" = "⌥⌘L 显示/隐藏 · ⌥⌘M 极简";
+"hud.footer_local" = "本地识别 · 本地翻译";
+
+/* Status */
+"status.starting" = "正在启动…";
+"status.preparing_translation" = "正在准备翻译…";
+"status.preparing_speech" = "正在准备语音识别…";
+"status.stopped" = "已停止";
+"status.listening" = "正在聆听…";
+"status.listening_lanes" = "正在聆听 · %@";
+"status.lane.mic" = "麦克风";
+"status.language_pack_missing_short" = "翻译语言包未安装";
+"status.language_pack_missing" = "翻译语言包未安装 · 菜单栏可打开设置";
+"status.mic_not_authorized" = "麦克风未授权";
+"status.system_error" = "系统声音不可用：%@";
+"status.mic_error" = "麦克风不可用：%@";
+"status.translation_unsupported" = "不支持 en → 中文 翻译";
+"status.translation_failed_init" = "翻译初始化失败：%@";
+"line.translation_unavailable" = "（未安装翻译语言包）";
+"line.translation_failed" = "（翻译失败）";
+
+/* Alerts */
+"alert.screen_capture_title" = "无法采集系统声音";
+"alert.screen_capture_body" = "%@\n\nLiveTrans 只采集系统播放的声音，不保存屏幕画面。\n请在「系统设置 → 隐私与安全性 → 屏幕与系统音频录制」中允许 LiveTrans，然后重新启动 App。";
+"alert.microphone_title" = "无法使用麦克风";
+"alert.microphone_body" = "%@\n\n如果麦克风权限被拒绝，请在「系统设置 → 隐私与安全性 → 麦克风」中允许 LiveTrans。\n也可以继续只用系统声音（菜单栏 → 麦克风 关闭）。";
+"alert.open_settings" = "打开系统设置";
+"alert.later" = "稍后";
+
+/* Settings */
+"settings.title" = "LiveTrans 设置";
+"settings.section.minimal" = "极简模式";
+"settings.material" = "毛玻璃背景";
+"settings.material_help" = "开启后用系统材质模糊背后的窗口；此时 0% 不透明度也能看到毛玻璃。";
+"settings.opacity" = "背景不透明度";
+"settings.opacity_help" = "0% 为完全透明，只显示文字；文字带阴影，尽量保证可读性。";
+"settings.height" = "高度";
+"settings.width" = "宽度";
+"settings.lines" = "显示条数";
+"settings.lines.one" = "1 条";
+"settings.lines.two" = "2 条";
+"settings.lines.three" = "3 条";
+"settings.source_font" = "原文大小";
+"settings.translation_font" = "译文大小";
+"settings.section.audio" = "音频";
+"settings.aec" = "回声消除 (AEC)";
+"settings.aec_help" = "外放时使用系统回声消除；如果麦克风识别变得不稳定，可以关掉。";
+"settings.section.preview" = "预览";
+"settings.preview_source" = "This is a subtitle preview.";
+"settings.preview_translation" = "这是字幕预览。";
+"settings.reset" = "恢复默认设置";
+"settings.percent" = "%d%%";
+"settings.pt_int" = "%d pt";
+"settings.pt_decimal" = "%.1f pt";
+
+/* Errors */
+"error.speech_unavailable" = "当前设备不支持 SpeechTranscriber";
+"error.audio_format_unavailable" = "无法获取语音识别所需的音频格式";
+"error.no_display" = "没有找到可用的显示器";
+"error.microphone_unavailable" = "麦克风不可用";
+"error.translation_unavailable" = "翻译会话未就绪";
+"error.screen_capture_failed" = "系统声音采集失败：%@";
+"error.translation_state_unknown" = "未知的语言支持状态";

@@ -1,0 +1,89 @@
+/* Menu */
+"menu.header" = "LiveTrans · EN → Chinese";
+"menu.show_hud" = "Show HUD";
+"menu.hide_hud" = "Hide HUD";
+"menu.minimal" = "Minimal Mode";
+"menu.settings" = "Settings…";
+"menu.material" = "Frosted Glass";
+"menu.start" = "Start Listening";
+"menu.stop" = "Stop Listening";
+"menu.microphone" = "Microphone";
+"menu.aec" = "Echo Cancellation (AEC)";
+"menu.click_through" = "Click-Through";
+"menu.hide_in_share" = "Hide HUD in Screen Sharing";
+"menu.translation_languages" = "Open Translation Languages…";
+"menu.quit" = "Quit LiveTrans";
+"status.tooltip" = "LiveTrans · EN → Chinese";
+
+/* HUD */
+"hud.direction" = "EN → Chinese";
+"hud.empty_title" = "Waiting for audio…";
+"hud.empty_subtitle" = "Play an English video or start speaking";
+"hud.language_pack_banner" = "Translation language pack missing · Menu bar → Open Translation Languages";
+"hud.lane.system" = "Them";
+"hud.lane.mic" = "Me";
+"hud.translating" = "Translating…";
+"hud.recognizing" = "Recognizing…";
+"hud.footer_shortcuts" = "⌥⌘L Show/Hide · ⌥⌘M Minimal";
+"hud.footer_local" = "On-device ASR · On-device translation";
+
+/* Status */
+"status.starting" = "Starting…";
+"status.preparing_translation" = "Preparing translation…";
+"status.preparing_speech" = "Preparing speech recognition…";
+"status.stopped" = "Stopped";
+"status.listening" = "Listening…";
+"status.listening_lanes" = "Listening · %@";
+"status.lane.mic" = "Microphone";
+"status.language_pack_missing_short" = "Translation language pack missing";
+"status.language_pack_missing" = "Translation language pack missing · Open Settings from the menu bar";
+"status.mic_not_authorized" = "Microphone not authorized";
+"status.system_error" = "System audio unavailable: %@";
+"status.mic_error" = "Microphone unavailable: %@";
+"status.translation_unsupported" = "en → Chinese translation is not supported";
+"status.translation_failed_init" = "Translation initialization failed: %@";
+"line.translation_unavailable" = "(translation language pack not installed)";
+"line.translation_failed" = "(translation failed)";
+
+/* Alerts */
+"alert.screen_capture_title" = "Can't Capture System Audio";
+"alert.screen_capture_body" = "%@\n\nLiveTrans only captures system audio; it does not save your screen.\nAllow LiveTrans in System Settings → Privacy & Security → Screen & System Audio Recording, then relaunch the app.";
+"alert.microphone_title" = "Can't Use the Microphone";
+"alert.microphone_body" = "%@\n\nIf microphone access was denied, allow LiveTrans in System Settings → Privacy & Security → Microphone.\nYou can also keep using system audio only (menu bar → Microphone).";
+"alert.open_settings" = "Open System Settings";
+"alert.later" = "Later";
+
+/* Settings */
+"settings.title" = "LiveTrans Settings";
+"settings.section.minimal" = "Minimal Mode";
+"settings.material" = "Frosted Glass";
+"settings.material_help" = "Blurs the windows behind the HUD with the system material. Frosted glass is visible even at 0% opacity.";
+"settings.opacity" = "Background Opacity";
+"settings.opacity_help" = "0% is fully transparent: only text is shown, with a shadow to keep it readable.";
+"settings.height" = "Height";
+"settings.width" = "Width";
+"settings.lines" = "Lines";
+"settings.lines.one" = "1 line";
+"settings.lines.two" = "2 lines";
+"settings.lines.three" = "3 lines";
+"settings.source_font" = "Source Size";
+"settings.translation_font" = "Translation Size";
+"settings.section.audio" = "Audio";
+"settings.aec" = "Echo Cancellation (AEC)";
+"settings.aec_help" = "Uses the system echo canceller while playing through speakers. Turn it off if microphone recognition becomes unstable.";
+"settings.section.preview" = "Preview";
+"settings.preview_source" = "This is a subtitle preview.";
+"settings.preview_translation" = "This is the translated subtitle.";
+"settings.reset" = "Restore Defaults";
+"settings.percent" = "%d%%";
+"settings.pt_int" = "%d pt";
+"settings.pt_decimal" = "%.1f pt";
+
+/* Errors */
+"error.speech_unavailable" = "SpeechTranscriber is not available on this device";
+"error.audio_format_unavailable" = "Unable to obtain a compatible audio format";
+"error.no_display" = "No display is available";
+"error.microphone_unavailable" = "Microphone is unavailable";
+"error.translation_unavailable" = "Translation session is not ready";
+"error.screen_capture_failed" = "System audio capture failed: %@";
+"error.translation_state_unknown" = "Unknown language availability state";
